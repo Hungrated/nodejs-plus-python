@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-plus-python",
+  "version": "0.0.1",
+  "description": "A demo for testing running python in node env.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Python"
+  ],
+  "author": "Hungrated",
+  "license": "MIT"
+}
