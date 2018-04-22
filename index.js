@@ -6,7 +6,7 @@ let arg1 = 'hello',
 
 exec(`python ${fileName} ${arg1} ${arg2}`, function (err, stdout, stderr) {
   if (err) {
-    console.log('stderr:: ' + err);
+    console.log('stderr: ' + err);
   }
   if (stdout) {
     console.log(stdout);
