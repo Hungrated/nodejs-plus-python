@@ -8,7 +8,8 @@
   },
   "keywords": [
     "Node.js",
-    "Python"
+    "Python",
+    "child process"
   ],
   "author": "Hungrated",
   "license": "MIT"
