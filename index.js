@@ -5,10 +5,13 @@ let arg1 = 'hello',
   fileName = 'src/test.py';
 
 exec(`python ${fileName} ${arg1} ${arg2}`, function (err, stdout, stderr) {
+
   if (err) {
     console.log('stderr: ' + err);
   }
+
   if (stdout) {
     console.log(stdout);
   }
+
 });
